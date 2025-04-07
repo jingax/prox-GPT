@@ -11,7 +11,7 @@ html_string = '''
  '''
 st.markdown(html_string, unsafe_allow_html=True)
 st.subheader('', divider='rainbow')
-st.write('View source [here](https://github.sec.samsung.net/ARG-MultimodalAI/TestSuite)')
+st.write('View source [here](https://github.com/jingax/prox-GPT)')
 
 role_avatars = {
     "user": "images/chill.jpg", 
