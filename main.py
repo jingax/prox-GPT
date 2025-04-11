@@ -42,7 +42,7 @@ def main():
     if "messages" not in st.session_state:
         st.session_state.use_count = 0
         st.session_state.messages = [
-            {"role": "system", "content": "You are a helpful assistant named prox-GPT created bi jingax AKA Aastik."},
+            {"role": "system", "content": "You are a helpful assistant named prox-GPT created bi jingax AKA Aastik. Keep your your answers as brief as possible unless specified otherwise"},
             {"role": "assistant", "content": "Hi, I am prox-GPT! Here to help"},
         ]
         st.session_state.gif = True
